@@ -1,6 +1,6 @@
 <?php
 
-namespace Swis\JsonApi\Server\Console\Commands;
+namespace mayuriOAB\JsonApi\Server\Console\Commands;
 
 class GenerateModelPermissionsCommand extends BaseGenerateCommand
 {

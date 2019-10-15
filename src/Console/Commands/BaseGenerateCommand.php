@@ -3,7 +3,7 @@
 namespace Swis\JsonApi\Server\Console\Commands;
 
 use Illuminate\Console\Command;
-use Swis\JsonApi\Server\Services\CustomFileGenerator;
+use mayuriOAB\JsonApi\Server\Services\CustomFileGenerator;
 
 abstract class BaseGenerateCommand extends Command
 {
