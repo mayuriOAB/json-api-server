@@ -54,7 +54,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Swis\\JsonApi\\Server\\": "src/"
+      "mayuriOAB\\JsonApi\\Server\\": "src/"
     }
   },
   "autoload-dev": {
