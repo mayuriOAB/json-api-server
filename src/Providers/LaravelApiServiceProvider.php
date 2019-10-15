@@ -7,17 +7,17 @@ use Illuminate\Routing\Router;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\ServiceProvider;
-use Swis\JsonApi\Server\Console\Commands\GenerateAllCommand;
-use Swis\JsonApi\Server\Console\Commands\GenerateApiControllerCommand;
-use Swis\JsonApi\Server\Console\Commands\GenerateAuthenticationTestCommand;
-use Swis\JsonApi\Server\Console\Commands\GenerateModelCommand;
-use Swis\JsonApi\Server\Console\Commands\GenerateModelPermissionsCommand;
-use Swis\JsonApi\Server\Console\Commands\GenerateModelTranslationCommand;
-use Swis\JsonApi\Server\Console\Commands\GeneratePolicyCommand;
-use Swis\JsonApi\Server\Console\Commands\GenerateRepositoryCommand;
-use Swis\JsonApi\Server\Console\Commands\GenerateRoutesCommand;
-use Swis\JsonApi\Server\Http\Middleware\ConfigureLocale;
-use Swis\JsonApi\Server\Http\Middleware\InspectContentType;
+use mayuriOAB\JsonApi\Server\Console\Commands\GenerateAllCommand;
+use mayuriOAB\JsonApi\Server\Console\Commands\GenerateApiControllerCommand;
+use mayuriOAB\JsonApi\Server\Console\Commands\GenerateAuthenticationTestCommand;
+use mayuriOAB\JsonApi\Server\Console\Commands\GenerateModelCommand;
+use mayuriOAB\JsonApi\Server\Console\Commands\GenerateModelPermissionsCommand;
+use mayuriOAB\JsonApi\Server\Console\Commands\GenerateModelTranslationCommand;
+use mayuriOAB\JsonApi\Server\Console\Commands\GeneratePolicyCommand;
+use mayuriOAB\JsonApi\Server\Console\Commands\GenerateRepositoryCommand;
+use mayuriOAB\JsonApi\Server\Console\Commands\GenerateRoutesCommand;
+use mayuriOAB\JsonApi\Server\Http\Middleware\ConfigureLocale;
+use mayuriOAB\JsonApi\Server\Http\Middleware\InspectContentType;
 use Symfony\Component\Finder\Finder;
 
 class LaravelApiServiceProvider extends ServiceProvider
