@@ -1,12 +1,12 @@
 <?php
 
-namespace Swis\JsonApi\Server\Http\Resources;
+namespace mayuriOAB\JsonApi\Server\Http\Resources;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Http\Request;
 use Illuminate\Http\Resources\Json\Resource;
 use Illuminate\Support\Collection;
-use Swis\JsonApi\Server\Traits\HandlesRelationships;
+use mayuriOAB\JsonApi\Server\Traits\HandlesRelationships;
 
 class BaseApiResource extends Resource
 {

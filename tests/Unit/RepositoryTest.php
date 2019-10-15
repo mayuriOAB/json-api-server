@@ -3,8 +3,8 @@
 namespace Tests\Unit;
 
 use Illuminate\Database\Eloquent\ModelNotFoundException;
-use Swis\JsonApi\Server\Exceptions\NotFoundException;
-use Swis\JsonApi\Server\Paginators\EmptyPaginator;
+use mayuriOAB\JsonApi\Server\Exceptions\NotFoundException;
+use mayuriOAB\JsonApi\Server\Paginators\EmptyPaginator;
 use Tests\TestCase;
 use Tests\TestClasses\TestModel;
 use Tests\TestClasses\TestRepository;
@@ -177,7 +177,7 @@ class RepositoryTest extends TestCase
     }
 
     /** @test
-     * @throws \Swis\JsonApi\Server\Exceptions\NotFoundException
+     * @throws \mayuriOAB\JsonApi\Server\Exceptions\NotFoundException
      */
     public function update_model()
     {
@@ -189,7 +189,7 @@ class RepositoryTest extends TestCase
     }
 
     /** @test
-     * @throws \Swis\JsonApi\Server\Exceptions\NotFoundException
+     * @throws \mayuriOAB\JsonApi\Server\Exceptions\NotFoundException
      */
     public function update_model_not_found()
     {

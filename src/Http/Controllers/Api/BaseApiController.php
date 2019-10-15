@@ -1,6 +1,6 @@
 <?php
 
-namespace Swis\JsonApi\Server\Http\Controllers\Api;
+namespace mayuriOAB\JsonApi\Server\Http\Controllers\Api;
 
 use Illuminate\Auth\Access\AuthorizationException;
 use Illuminate\Contracts\Pagination\Paginator;
@@ -9,10 +9,10 @@ use Illuminate\Foundation\Bus\DispatchesJobs;
 use Illuminate\Foundation\Validation\ValidatesRequests;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
-use Swis\JsonApi\Server\Exceptions\ForbiddenException;
-use Swis\JsonApi\Server\Exceptions\JsonException;
-use Swis\JsonApi\Server\Repositories\RepositoryInterface;
-use Swis\JsonApi\Server\Traits\HandleResponses;
+use mayuriOAB\JsonApi\Server\Exceptions\ForbiddenException;
+use mayuriOAB\JsonApi\Server\Exceptions\JsonException;
+use mayuriOAB\JsonApi\Server\Repositories\RepositoryInterface;
+use mayuriOAB\JsonApi\Server\Traits\HandleResponses;
 
 abstract class BaseApiController extends Controller
 {

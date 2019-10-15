@@ -1,6 +1,6 @@
 <?php
 
-namespace Swis\JsonApi\Server\Http\Middleware;
+namespace mayuriOAB\JsonApi\Server\Http\Middleware;
 
 use Closure;
 

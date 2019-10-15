@@ -35,7 +35,7 @@ class ControllerTest extends TestCase
     /**
      * A basic test example.
      *
-     * @throws \Swis\JsonApi\Server\Exceptions\ForbiddenException
+     * @throws \mayuriOAB\JsonApi\Server\Exceptions\ForbiddenException
      */
     public function test_index()
     {
@@ -45,7 +45,7 @@ class ControllerTest extends TestCase
     }
 
     /**
-     * @throws \Swis\JsonApi\Server\Exceptions\ForbiddenException
+     * @throws \mayuriOAB\JsonApi\Server\Exceptions\ForbiddenException
      */
     public function test_show()
     {
@@ -55,7 +55,7 @@ class ControllerTest extends TestCase
     }
 
     /**
-     * @throws \Swis\JsonApi\Server\Exceptions\ForbiddenException
+     * @throws \mayuriOAB\JsonApi\Server\Exceptions\ForbiddenException
      */
     public function test_delete()
     {

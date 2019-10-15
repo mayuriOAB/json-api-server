@@ -75,7 +75,7 @@ Updates should follow the [Keep a CHANGELOG](http://keepachangelog.com/) princip
 ## 0.2 - 2018-03-12
 
 ### Added
-- Changed namespace from `Swis\LaravelApi` to `Swis\JsonApi\Server`
+- Changed namespace from `Swis\LaravelApi` to `mayuriOAB\JsonApi\Server`
 - Changed commands from `laravel-api:generate` to `json-api-server:generate`
 - Tests for commands
 - Tests for BaseApiRepository

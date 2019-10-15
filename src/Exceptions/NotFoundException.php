@@ -6,7 +6,7 @@
  * Time: 13:09.
  */
 
-namespace Swis\JsonApi\Server\Exceptions;
+namespace mayuriOAB\JsonApi\Server\Exceptions;
 
 class NotFoundException extends JsonException
 {

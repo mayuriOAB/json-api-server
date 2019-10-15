@@ -6,11 +6,11 @@
  * Time: 13:36.
  */
 
-namespace Swis\JsonApi\Server\Exceptions;
+namespace mayuriOAB\JsonApi\Server\Exceptions;
 
 use Exception;
-use Swis\JsonApi\Server\Constants\HttpCodes;
-use Swis\JsonApi\Server\Traits\HandleResponses;
+use mayuriOAB\JsonApi\Server\Constants\HttpCodes;
+use mayuriOAB\JsonApi\Server\Traits\HandleResponses;
 
 abstract class JsonException extends Exception
 {

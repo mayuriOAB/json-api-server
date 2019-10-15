@@ -1,6 +1,6 @@
 <?php
 
-namespace Swis\JsonApi\Server\Services;
+namespace mayuriOAB\JsonApi\Server\Services;
 
 class CustomFileGenerator
 {

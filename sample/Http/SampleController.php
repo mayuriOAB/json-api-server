@@ -4,8 +4,8 @@ namespace App\Http\Controllers\Api;
 
 use App\Repositories\SampleRepository;
 use Illuminate\Http\Request;
-use Swis\JsonApi\Server\Http\Controllers\Api\BaseApiController;
-use Swis\JsonApi\Server\Repositories\RepositoryInterface;
+use mayuriOAB\JsonApi\Server\Http\Controllers\Api\BaseApiController;
+use mayuriOAB\JsonApi\Server\Repositories\RepositoryInterface;
 
 class SampleController extends BaseApiController
 {

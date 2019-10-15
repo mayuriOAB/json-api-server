@@ -1,17 +1,17 @@
 <?php
 
-namespace Swis\JsonApi\Server\Traits;
+namespace mayuriOAB\JsonApi\Server\Traits;
 
 use Illuminate\Contracts\Pagination\Paginator;
 use Illuminate\Database\Eloquent\Model;
-use Swis\JsonApi\Server\Models\Responses\RespondError;
-use Swis\JsonApi\Server\Models\Responses\RespondHttpCreated;
-use Swis\JsonApi\Server\Models\Responses\RespondHttpForbidden;
-use Swis\JsonApi\Server\Models\Responses\RespondHttpNoContent;
-use Swis\JsonApi\Server\Models\Responses\RespondHttpNotFound;
-use Swis\JsonApi\Server\Models\Responses\RespondHttpOk;
-use Swis\JsonApi\Server\Models\Responses\RespondHttpPartialContent;
-use Swis\JsonApi\Server\Services\ResponseService;
+use mayuriOAB\JsonApi\Server\Models\Responses\RespondError;
+use mayuriOAB\JsonApi\Server\Models\Responses\RespondHttpCreated;
+use mayuriOAB\JsonApi\Server\Models\Responses\RespondHttpForbidden;
+use mayuriOAB\JsonApi\Server\Models\Responses\RespondHttpNoContent;
+use mayuriOAB\JsonApi\Server\Models\Responses\RespondHttpNotFound;
+use mayuriOAB\JsonApi\Server\Models\Responses\RespondHttpOk;
+use mayuriOAB\JsonApi\Server\Models\Responses\RespondHttpPartialContent;
+use mayuriOAB\JsonApi\Server\Services\ResponseService;
 
 trait HandleResponses
 {

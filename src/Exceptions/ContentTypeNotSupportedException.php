@@ -1,8 +1,8 @@
 <?php
 
-namespace Swis\JsonApi\Server\Exceptions;
+namespace mayuriOAB\JsonApi\Server\Exceptions;
 
-use Swis\JsonApi\Server\Constants\HttpCodes;
+use mayuriOAB\JsonApi\Server\Constants\HttpCodes;
 
 class ContentTypeNotSupportedException extends JsonException
 {

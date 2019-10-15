@@ -1,6 +1,6 @@
 <?php
 
-namespace Swis\JsonApi\Server\Repositories;
+namespace mayuriOAB\JsonApi\Server\Repositories;
 
 use Illuminate\Database\Eloquent\Model;
 

@@ -1,10 +1,10 @@
 <?php
 
-namespace Swis\JsonApi\Server\Http\Middleware;
+namespace mayuriOAB\JsonApi\Server\Http\Middleware;
 
 use Closure;
 use Illuminate\Http\Request;
-use Swis\JsonApi\Server\Exceptions\ContentTypeNotSupportedException;
+use mayuriOAB\JsonApi\Server\Exceptions\ContentTypeNotSupportedException;
 
 class InspectContentType
 {

@@ -1,11 +1,11 @@
 <?php
 
-namespace Swis\JsonApi\Server\Services;
+namespace mayuriOAB\JsonApi\Server\Services;
 
-use Swis\JsonApi\Server\Exceptions\NotFoundException;
-use Swis\JsonApi\Server\Http\Resources\BaseApiCollectionResource;
-use Swis\JsonApi\Server\Http\Resources\BaseApiResource;
-use Swis\JsonApi\Server\Models\Responses\RespondError;
+use mayuriOAB\JsonApi\Server\Exceptions\NotFoundException;
+use mayuriOAB\JsonApi\Server\Http\Resources\BaseApiCollectionResource;
+use mayuriOAB\JsonApi\Server\Http\Resources\BaseApiResource;
+use mayuriOAB\JsonApi\Server\Models\Responses\RespondError;
 
 class ResponseService
 {

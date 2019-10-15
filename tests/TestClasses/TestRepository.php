@@ -2,7 +2,7 @@
 
 namespace Tests\TestClasses;
 
-use Swis\JsonApi\Server\Repositories\BaseApiRepository;
+use mayuriOAB\JsonApi\Server\Repositories\BaseApiRepository;
 
 class TestRepository extends BaseApiRepository
 {

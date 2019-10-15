@@ -1,6 +1,6 @@
 <?php
 
-namespace Swis\JsonApi\Server\Traits;
+namespace mayuriOAB\JsonApi\Server\Traits;
 
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
@@ -15,7 +15,7 @@ use Illuminate\Database\Eloquent\Relations\MorphPivot;
 use Illuminate\Database\Eloquent\Relations\MorphTo;
 use Illuminate\Database\Eloquent\Relations\MorphToMany;
 use Illuminate\Http\Resources\Json\ResourceCollection;
-use Swis\JsonApi\Server\Http\Resources\BaseApiResource;
+use mayuriOAB\JsonApi\Server\Http\Resources\BaseApiResource;
 
 trait HandlesRelationships
 {

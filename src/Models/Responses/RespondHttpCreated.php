@@ -1,8 +1,8 @@
 <?php
 
-namespace Swis\JsonApi\Server\Models\Responses;
+namespace mayuriOAB\JsonApi\Server\Models\Responses;
 
-use Swis\JsonApi\Server\Constants\HttpCodes;
+use mayuriOAB\JsonApi\Server\Constants\HttpCodes;
 
 class RespondHttpCreated extends RespondSuccess
 {
